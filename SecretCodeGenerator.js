@@ -1,3 +1,4 @@
+let text = 'This is a sample text' // write the text which u want to code
 
 // Function to code the word
 
@@ -55,7 +56,6 @@ const decode = (text) =>{
 
 
 
-let text = 'This is a sample text' // write the text which u want to code
 let array1 = [];
 let codedWord
 let decodedWord
