@@ -2,8 +2,8 @@
 This is a secret code generator created for fun during my free time. The code follows a specific rule:
 
 - If the word is less than 4 letters, it reverses the word.
-- If the word is greater than or equal to 4 letters, it removes the first letter from the word and adds it to the end.
-- It also adds 3 random letters and numbers to the beginning and end of the word.
+- If the word is greater than or equal to 4 letters, it removes the first letter from the word and adds it to the end
+  and also adds 3 random letters and numbers to the beginning and end of the word.
 
 
 # Usage
