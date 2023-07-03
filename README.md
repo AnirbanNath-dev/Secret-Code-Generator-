@@ -13,3 +13,14 @@ To use the secret code generator, follow these steps:
 2. Run the secretCodeGenerator.js file in a JavaScript environment.
 3. Replace the text **This is a sample text** in __text variable__ with what you want to type.
 4. The program will generate the secret code based on the rules mentioned above.
+
+# Concepts used 
+
+- Regular expressions
+- Map method
+- methonds like trim() , split() , join() , shift() , unshift() , pop() , push() , reverse()
+
+
+
+
+  
