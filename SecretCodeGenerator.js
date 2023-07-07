@@ -1,4 +1,4 @@
-let text = 'This is a sample text' // write the text which u want to code
+const readline = require('readline');
 
 // Function to code the word
 
@@ -52,9 +52,27 @@ const decode = (text) =>{
 
 }
 
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question('Enter your text: ', (text) => {
+    // Encode the input
+    let encodedWord = code(text);
+    // Decode the encoded word
+    let decodedWord = decode(encodedWord);
+    // Print the results
+    console.log(`The encoded word is "\x1b[1m${encodedWord}\x1b[0m" and the decoded word is "\x1b[1m${decodedWord}\x1b[0m"`);
+    // Close the readline interface
+    rl.close();
+});
 
 
+// Previous Code
 
+/*
+let text = 'This is a sample text'
 
 let array1 = [];
 let codedWord
@@ -77,8 +95,4 @@ decodedWord = decodedarray.join(' ')
 
 console.log(`The coded word is "\x1b[1m${codedWord}\x1b[0m" and the decoded word is "\x1b[1m${decodedWord}\x1b[0m"`)
 
-
-
-
-
-
+*/
